@@ -300,7 +300,7 @@ new RateLimiter(app, evmchains);
 
 ### Disabling Captcha Verification
 
-Remove the  `captcha.middleware` from `sendToken` API.
+Set `CAPTCHA_SECRET=""` in the `.env` file.
 
 ### Starting the Faucet
 
